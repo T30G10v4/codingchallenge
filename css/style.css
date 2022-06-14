@@ -1,0 +1,108 @@
+/*
+
+  File CSS della coding challenge del candidato Matteo Giovagnotti
+
+*/
+
+/*Tutti gli elementi non devono sommare border, padding e width e avere margini uguali a 0*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+/**/
+body {
+ background-image:url(../img/background.jpg);
+ background-size: 100%;
+}
+
+/**/
+header {
+  text-align: center;
+}
+
+/**/
+h1 {
+  color: rgb(0, 221, 0);
+}
+
+/**/
+nav {
+  background-color: rgb(0, 221, 0);
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 25px;
+}
+
+/**/
+span {
+  color: white;
+  font-size: 20px;
+}
+
+input {
+  margin-right: 10px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+/**/
+.contenitore {
+  width: 67%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 25px;
+}
+
+/*Stile comune barra carica*/
+.barra {
+  min-height: 30px;
+  border-radius: 15px;
+}
+
+/*Stile specifico*/
+.barra.alto {
+  max-width: 500px;
+  background-color: lightgreen;
+  margin-bottom: 0px;
+}
+
+/*Stile specifico*/
+.barra.medio {
+  max-width: 300px;
+  background-color: orange;
+  margin-bottom: 0px;
+}
+
+/*Stile specifico*/
+.barra.basso {
+  max-width: 100px;
+  background-color: red;
+  margin-bottom: 0px;
+}
+
+/**/
+.monopattino {
+  padding-top:20px;
+  padding-bottom: 20px;
+}
+
+/*Tutti gli span nipoti di .monopattino*/
+.monopattino span {
+  display: inline-block;
+}
+
+/*Tutti i div nipoti di .monopattino*/
+.monopattino div {
+
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
